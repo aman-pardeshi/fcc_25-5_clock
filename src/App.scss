@@ -1,0 +1,49 @@
+body {
+  background-color: #282c34;
+  color: whitesmoke;
+}
+
+.App {
+  display: flex;
+  flex-direction: column;
+  margin-top: 50px;
+  text-align: center;
+  align-items: center;
+  align-content: center;
+
+  i {
+    margin: 20px;
+    font-size: 30px;
+  }
+
+  .controller-panel {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 150px;
+
+    span {
+      font-size: 1.8em;
+    }
+
+    .timer {
+      font-size: 3em;
+    }
+
+    .break-controller {
+      font-size: 1.5em;
+    }
+
+    .clock-display {
+      font-size: 3em;
+    }
+
+    .session-controller {
+      font-size: 1.5em;
+    }
+
+    h2 {
+      margin-bottom: 0px;
+    }
+  }
+}
